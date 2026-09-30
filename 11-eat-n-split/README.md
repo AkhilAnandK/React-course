@@ -9,4 +9,5 @@ A small React app for splitting bills with friends and keeping track of who owes
 - Choose who paid the bill
 - Automatically update the friend’s balance
 
-  <img width="1875" height="1422" alt="output" src="https://github.com/user-attachments/assets/c202eec2-2bba-4ec6-8d93-5721d6b24618" />
+<img width="1875" height="1422" alt="output" src="https://github.com/user-attachments/assets/654eb88d-3b56-4554-9a82-0d1009c6ed73" />
+
