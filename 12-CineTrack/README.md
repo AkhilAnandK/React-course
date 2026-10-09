@@ -1,16 +1,42 @@
-# React + Vite
+# CineTrack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineTrack is a React movie search and watchlist app. Search for movies and TV shows, view their details, rate them, and keep track of what you've watched.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search OMDb for movies and TV shows (enter at least three characters).
+- Browse search results and view a title's poster, release date, runtime, genre, IMDb rating, plot, cast, and director.
+- Rate a title from 1 to 10 stars and add it to your watched list.
+- See your watched list's average IMDb rating, user rating, and runtime.
+- Remove titles from your watched list.
 
-## React Compiler
+The watchlist is held in app state and is not saved between page reloads.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Screenshots
 
-## Expanding the ESLint configuration
+### Search results and title details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![CineTrack search results and movie details](./output%201.png)
+
+### Rate a title before adding it to your list
+
+![CineTrack rating control and add button](./output%203.png)
+
+![CineTrack selected rating](./output%204.png)
+
+### Watched list and summary
+
+![CineTrack watched list and summary](./output%202.png)
+
+## Getting started
+
+### Requirements
+
+- Node.js and npm
+- An OMDb API key
+
+## Built with
+
+- React
+- Vite
+- OMDb API
