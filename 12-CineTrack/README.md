@@ -22,11 +22,11 @@ The watchlist is held in app state and is not saved between page reloads.
 
 ![CineTrack rating control and add button](./output%203.png)
 
-![CineTrack selected rating](./output%204.png)
+![CineTrack selected rating](./output%202.png)
 
 ### Watched list and summary
 
-![CineTrack watched list and summary](./output%202.png)
+![CineTrack watched list and summary](./output%204.png)
 
 ## Getting started
 
