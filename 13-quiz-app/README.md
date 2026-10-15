@@ -1,16 +1,47 @@
-# React + Vite
+# The React Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A timed, interactive quiz about React and JavaScript fundamentals. Answer 15 multiple-choice questions, track your progress and score, and see your final result when you finish or the timer runs out.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Welcome screen showing the number of questions
+- Multiple-choice questions with immediate visual feedback for correct and incorrect answers
+- Progress bar, current question, and running score
+- Countdown timer (30 seconds per question)
+- Final score, percentage, high score, and option to restart
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Homepage
 
-## Expanding the ESLint configuration
+![React Quiz homepage](./output1.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Question with answer feedback
+
+Shows the selected answer, the correct answer, and the score update.
+
+![Quiz answer feedback](./output2.png)
+
+### 3. Quiz question
+
+![React Quiz question](./output3.png)
+
+### 4. Quiz progress and timer
+
+![Quiz progress and timer](./output4.png)
+
+### 5. Final question
+
+The last question uses a **Finish** button to submit the quiz.
+
+![Final quiz question](./output5.png)
+
+### 6. Results
+
+![React Quiz results](./output6.png)
+
+## Built with
+
+- React
+- Vite
+- JSON Server
