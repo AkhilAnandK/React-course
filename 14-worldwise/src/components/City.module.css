@@ -31,9 +31,10 @@
   gap: 1rem;
 }
 
-.city h3 span {
-  font-size: 3.2rem;
-  line-height: 1;
+.city h3 .flag {
+  width: 4.3rem;
+  height: 3.2rem;
+  object-fit: cover;
 }
 
 .city p {

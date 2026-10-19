@@ -20,9 +20,11 @@
   border-left: 5px solid var(--color-brand--2);
 }
 
-.emoji {
-  font-size: 2.6rem;
-  line-height: 1;
+.flag {
+  width: 3.2rem;
+  height: 2.4rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .name {

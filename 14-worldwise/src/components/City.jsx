@@ -1,4 +1,5 @@
 import styles from "./City.module.css";
+import { getFlagImageUrl } from "../utils";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -24,7 +25,8 @@ function City() {
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <span>{emoji}</span> {cityName}
+          <img className={styles.flag} src={getFlagImageUrl(emoji)} alt="" />{" "}
+          {cityName}
         </h3>
       </div>
 
