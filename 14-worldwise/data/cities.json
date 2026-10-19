@@ -35,6 +35,30 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Grand Canyon",
+      "country": "USA",
+      "emoji": "🇺🇸",
+      "date": "2026-05-12T12:30:00.000Z",
+      "notes": "Breathtaking views!",
+      "position": {
+        "lat": 36.0544,
+        "lng": -112.2401
+      },
+      "id": 64532187
+    },
+    {
+      "cityName": "London",
+      "country": "UK",
+      "emoji": "🇬🇧",
+      "date": "2026-06-04T10:15:00.000Z",
+      "notes": "Historic and vibrant.",
+      "position": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "id": 81274391
     }
   ]
 }
