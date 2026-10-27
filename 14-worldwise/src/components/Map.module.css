@@ -24,9 +24,11 @@
   gap: 1rem;
 }
 
-:global(.leaflet-popup .leaflet-popup-content span:first-child) {
-  font-size: 2.5rem;
-  line-height: 1;
+.popupFlag {
+  width: 3.2rem;
+  height: 2.4rem;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 :global(.leaflet-popup .leaflet-popup-tip) {
