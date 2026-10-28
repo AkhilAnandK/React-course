@@ -19,7 +19,7 @@ function CityItem({ city }) {
         className={`${styles.cityItem} ${
           id === currentCity.id ? styles["cityItem--active"] : ""
         }`}
-        to={`${id}?lat=${position.lat}&lng=${position.lng}`}
+        to={`/app/cities/${id}?lat=${position.lat}&lng=${position.lng}`}
       >
         <img className={styles.flag} src={getFlagImageUrl(emoji)} alt="" />
         <h3 className={styles.name}>{cityName}</h3>
