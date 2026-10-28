@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,7 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
     },
     {
       "cityName": "Grand Canyon",
@@ -46,7 +46,7 @@
         "lat": 36.0544,
         "lng": -112.2401
       },
-      "id": 64532187
+      "id": "64532187"
     },
     {
       "cityName": "London",
@@ -58,7 +58,32 @@
         "lat": 51.5074,
         "lng": -0.1278
       },
-      "id": 81274391
+      "id": "81274391"
+    },
+    {
+      "cityName": "West Allis",
+      "country": "United States of America",
+      "emoji": "🇺🇸",
+      "date": "2026-10-28T15:04:09.455Z",
+      "notes": "",
+      "position": {
+        "lat": "43.01320270638238",
+        "lng": "-88.00379624015793"
+      },
+      "id": "4XMAlcZnR94"
+    },
+    {
+      "cityName": "Milwaukee",
+      "country": "United States of America",
+      "emoji": "🇺🇸",
+      "date": "2026-10-28T15:10:45.475Z",
+      "notes": "",
+      "position": {
+        "lat": "43.06640445252494",
+        "lng": "-87.88266906589169"
+      },
+      "id": "6Ca3CX27QW4"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
