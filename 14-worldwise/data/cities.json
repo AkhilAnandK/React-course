@@ -83,6 +83,18 @@
         "lng": "-87.88266906589169"
       },
       "id": "6Ca3CX27QW4"
+    },
+    {
+      "cityName": "Wauwatosa",
+      "country": "United States of America",
+      "emoji": "🇺🇸",
+      "date": "2026-10-29T16:00:15.841Z",
+      "notes": "",
+      "position": {
+        "lat": "43.04594430967011",
+        "lng": "-88.01353454589845"
+      },
+      "id": "4aK4vfDB0lM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
